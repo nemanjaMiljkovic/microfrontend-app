@@ -1,0 +1,14 @@
+:host .sh-btn {
+  border: 0;
+  border-radius: 5px;
+  padding: 0.75rem 2rem;
+  background: blanchedalmond;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+
+:host .sh-btn:hover {
+  background: aquamarine;
+}
+

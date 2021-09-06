@@ -1,0 +1,31 @@
+{
+  "name": "@app/login",
+  "version": "1.0.0",
+  "devDependencies": {
+    "autoprefixer": "^10.3.2",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^2.2.0",
+    "postcss": "^8.3.6",
+    "postcss-loader": "^6.1.1",
+    "prettier": "^2.3.2",
+    "prettier-plugin-svelte": "^2.3.1",
+    "single-spa-svelte": "^2.1.1",
+    "svelte": "^3.42.2",
+    "svelte-loader": "^3.1.2",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.0.0"
+  },
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack",
+    "dev": "webpack serve"
+  },
+  "dependencies": {
+    "@app/utils": "1.0.0",
+    "@app/shared": "0.0.1",
+    "axios": "^0.21.1",
+    "single-spa": "^5.9.3",
+    "tailwindcss": "^2.2.7"
+  }
+}

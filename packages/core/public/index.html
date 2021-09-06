@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Microfrontend example</title>
+</head>
+<body>
+    <template id="single-spa-layout">
+        <single-spa-router mode="history">
+            <route exact path="/">
+                <application loader="generic" props="navigateToUrl" name="login"></application>
+            </route>
+            <route path="/dashboard">
+                <application loader="generic" props="isAuthenticated, navigateToUrl" name="dashboard"></application>
+            </route>
+            <route path="/products">
+                <application loader="generic" props="isAuthenticated, navigateToUrl" name="products"></application>
+            </route>
+        </single-spa-router>
+    </template>
+</body>
+</html>

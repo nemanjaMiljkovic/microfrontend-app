@@ -1,0 +1,25 @@
+{
+  "name": "@app/store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --watch -c webpack.config.js",
+    "build": "webpack --mode production",
+    "serve": "webpack serve"
+  },
+  "author": "Nemanja Miljkovic",
+  "license": "ISC",
+  "dependencies": {
+    "redux": "^4.1.1",
+    "webpack": "^5.51.1",
+    "webpack-dev-server": "^4.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^5.3.2",
+    "webpack-cli": "^4.8.0"
+  }
+}

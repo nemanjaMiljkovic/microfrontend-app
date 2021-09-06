@@ -1,0 +1,14 @@
+:host .loader-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+:host .loader-text {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: inherit;
+}
